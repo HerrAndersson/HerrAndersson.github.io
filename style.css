@@ -1,0 +1,37 @@
+* {
+	margin:0;padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+html,body,div {
+	height: 100%;
+}
+body {
+	background:#FF0000;
+}
+/* Menu background color */
+#menu {
+	background:#EEEEEE;
+}
+/* Menu links, content and logo background */
+#menu li, #content, #logo {
+	background:#ADD8E6;
+}
+/* Logo color */
+#logo {
+	color: #FF8800;
+}
+#logo {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+}
+#content {
+	overflow:hidden;
+	margin-left:200px;
+	padding-top:30px;
+	padding-left:60px;
+}
