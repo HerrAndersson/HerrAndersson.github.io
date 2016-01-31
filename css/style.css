@@ -216,9 +216,7 @@ ul#nav
         {
             color: #000;
             background: #CCC;
-            background: -moz-linear-gradient(#FFF, #BBB);
             background: -o-linear-gradient(#FFF, #BBB);
-            background: -webkit-linear-gradient(#FFF, #BBB);
             text-shadow: none;
         }
 
@@ -304,9 +302,7 @@ footer
     width: 80px;
     padding: 5px 2px 7px 2px;
     background: #CCC;
-    background: -moz-linear-gradient(#FFF, #BBB);
     background: -o-linear-gradient(#FFF, #BBB);
-    background: -webkit-linear-gradient(#FFF, #BBB);
     border-radius: 7px 7px 7px 7px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
@@ -323,8 +319,6 @@ footer
     width: 900px;
     height: 250px;
     margin-left: 20px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
