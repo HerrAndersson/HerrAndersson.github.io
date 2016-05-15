@@ -21,6 +21,7 @@ body
     text-shadow: 1px 1px #000;
     background: transparent url(../images/bg2.jpg) repeat;
     background-size: cover;
+    background-position: center;
 }
 
 /* tell the browser to render HTML 5 elements as block */
