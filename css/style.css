@@ -20,7 +20,7 @@ body
     color: #FFF;
     text-shadow: 1px 1px #000;
     background: transparent url(../images/bg2.jpg) repeat;
-    height: 2000px;
+    background-size: cover;
 }
 
 /* tell the browser to render HTML 5 elements as block */
@@ -49,7 +49,7 @@ p
 /* unvisited link and common settings for all*/
 a, a:link, a:visited, a:hover, a:active
 {
-    color: Highlight;
+    color: deepskyblue;
     background: transparent;
     outline: none;
     text-decoration: none;
