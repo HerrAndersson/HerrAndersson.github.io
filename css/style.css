@@ -20,6 +20,7 @@ body
     color: #FFF;
     text-shadow: 1px 1px #000;
     background: transparent url(../images/bg2.jpg) repeat;
+    height: 2000px;
 }
 
 /* tell the browser to render HTML 5 elements as block */
@@ -54,10 +55,10 @@ a, a:link, a:visited, a:hover, a:active
     text-decoration: none;
 }
 
-/* visited link */
+/* visited link 
 a:visited {
     color: deepskyblue;
-}
+}*/
 
 /* mouse over link */
 a:hover {
