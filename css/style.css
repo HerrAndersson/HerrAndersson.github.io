@@ -6,10 +6,6 @@
 html
 {
     height: 100%;
-    background: transparent url(../images/bg2.jpg) repeat;
-    /*background-size: cover;*/
-    background-size: auto;
-    background-position: center;
 }
 
 *
@@ -23,7 +19,10 @@ body
     font: normal 80% Arial, Helvetica, sans-serif;
     color: #FFF;
     text-shadow: 1px 1px #000;
-
+    background: transparent url(../images/bg2.jpg) repeat;
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 /* tell the browser to render HTML 5 elements as block */
