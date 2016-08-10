@@ -55,17 +55,44 @@
 		<div id="content">
 			<div class="content_item">
 				<h1><br />Portfolio</h1>
-				<p> Here is a collection of projects I have worked on. Projects not listed here can be found on GitHub where my username is HerrAndersson. <a target="_blank" href="https://github.com/HerrAndersson">HerrAndersson on Github</a></p>
+				<p> 
+					This is a collection of projects I have worked on, both individually and in groups. Projects not listed here can be found on GitHub where my username is HerrAndersson. 
+					<a target="_blank" href="https://github.com/HerrAndersson">HerrAndersson on Github</a>
+				</p>
+
+				<div class="content_item">
+					<h2>Level of Detail</h2>
+					<iframe class="centered_object" width="720" height="405" src="https://www.youtube.com/embed/zbhcDDIAnI8" frameborder="0" allowfullscreen></iframe>
+					<p>
+						My bachelor's thesis was about the differences between techniques used to switch between LoD's. 
+						The main focus was to examine how silhouette based Phong Tessellation compared to Curved PN Triangles, Static LoD, and Unpopping LoD.
+					</p>
+					<p>
+						Phong Tessellation and Curved PN Triangles are both implemented using hardware tessellation. Unpopping LoD is implemented using alpha blending.
+					</p>
+					<p>
+						<a target="_blank" href="https://github.com/HerrAndersson/Level-of-Detail">LoD-project on Github</a>
+						<a target="_blank" href="http://bth.diva-portal.org/smash/record.jsf?pid=diva2%3A945408">Link to Thesis</a>
+					</p>
+				</div>
+
 				<div class="content_item">
 					<h2>VileCorp</h2>
 
 					<iframe class="centered_object" width="720" height="405" src="https://www.youtube.com/embed/jOgy49PNFBk" frameborder="0" allowfullscreen></iframe>
 					<p>
-						This game was created as the final project of the program at BTH, in a group of 14 members (5 Technical Artists and 9 Game programmers). It is a strategy game where you play as a security company with the objective to prevent thieves from stealing valuable objectives from your clients. You have several traps at your disposal, and you can use two types of guards that you can give commands to. There is also a level editor where you can build you own maps and design the missions. <br />
-						My part of this project was to implement the graphics "engine" and things regarding the optimization of the pipeline. Part of the project was to have the game run on an Intel NUC with an i5 processor and Intel Integrated 6000 graphics, using at most 256MB RAM and in at least 30 fps.
-						<br /><br />
+						This game was created as the final project of the program at BTH, in a group of 14 members (5 Technical Artists and 9 Game programmers). 
+						It is a strategy game where you play as a security company with the objective to prevent thieves from stealing valuable objects from your clients. 
+						You have several traps at your disposal, and you can use two types of guards which can be given commands. 
+						There is also a level editor where you can build you own maps and design missions.
+					</p>
+					<p>
+						My part of this project was to implement the graphics "engine" (Direct3D 11), where I have implemented everything except for the antialiasing and animation shaders. 
+						Part of the project was to have the game run on an Intel NUC with an i5 processor and Intel Integrated 6000 graphics, using at most 256MB RAM in at least 30 fps. 
+						To meet these requirements, I also did a lot of optimization, such as developing an algorithm which scans the map and combines tiles of the same type to save draw calls.
+					</p>
+					<p>
 						Included in the project was also to work with Scrum, with sprints each week, morning meetings, sprint evaluation etc.
-
 						<br /><br />
 						<a target="_blank" href="https://github.com/HerrAndersson/VileCorp">VileCorp on Github</a>
 
@@ -76,9 +103,14 @@
 					<h2>nightlight</h2>
 					<iframe class="centered_object" width="720" height="405" src="https://www.youtube.com/embed/hSGGY9XV3Hk" frameborder="0" allowfullscreen></iframe>
 					<p>
-						This game was created in a group of 6 members (4 Technical Artists and 2 Game programmers). It is a puzzle game where you play as a little boy who is trapped in his grandfathers secret lab after an experiment went wrong. Shadow creatures escaped and will try to kill you, but you can use your flashlight to push them away. Using switches, boxes and the creatures themselves you must try to find your grandfather and escape the lab.
-						<br /><br /> As we were only two programmers we both worked on most parts together, but the graphics "engine" and the AI was done by me alone.
-
+						This game was created in a group of 6 members (4 Technical Artists and 2 Game programmers). 
+						It is a puzzle game where you play as a little boy who is trapped in his grandfathers secret lab after an experiment went wrong. 
+						Shadow creatures escaped and will try to kill you, but you can use your flashlight to push them away. 
+						Using switches, boxes and the creatures themselves you must try to find your grandfather and escape the lab.
+					</p>
+					<p>
+						Since we were only two programmers, both of us worked on most parts together, but the graphics "engine" (Direct3D 11) and the AI was done by me alone. 
+						The AI is a simple 3-state statemachine, which is using my implementation of A* for pathfinding.
 						<br /><br />
 						<a target="_blank" href="https://github.com/HerrAndersson/nightlight">nightlight on Github</a>
 					</p>
@@ -88,8 +120,8 @@
 					<h2>Seam Carving</h2>
 					<iframe class="centered_object" width="580" height="435" src="https://www.youtube.com/embed/Y0PNoRbOMHw" frameborder="0" allowfullscreen></iframe>
 					<p>
-						This is an implementation of Seam Carving (S. Avidan and A. Shamir, 2007), which is a way of resizing images by removing pixels of low importance. It was implemented in C++ and Direct3D 10.
-
+						This is an implementation of Seam Carving (S. Avidan and A. Shamir, 2007), which is a way of resizing images by removing pixels of low importance. 
+						It was implemented in C++ and Direct3D 10.
 						<br /><br />
 						<a target="_blank" href="https://github.com/HerrAndersson/seamcarving">Seam Carving on Github</a>
 					</p>
@@ -99,7 +131,7 @@
 					<h2>Space Shooter</h2>
 					<iframe class="centered_object" width="580" height="435" src="https://www.youtube.com/embed/kzqMsWUarBs" frameborder="0" allowfullscreen></iframe>
 					<p>
-						A Space shooter where you play as a ship and should stay alive for as long as possible while waves of enemy ships attack you. It was implemented in XNA and C#.
+						A Space shooter where you play as a ship. The objective is to stay alive as long as possible while waves of enemy ships attack you. It was implemented in C# using XNA.
 					</p>
 				</div>
 
@@ -107,8 +139,8 @@
 					<h2>Luabyrint</h2>
 					<iframe class="centered_object" width="580" height="435" src="https://www.youtube.com/embed/RZIrMocRPxc" frameborder="0" allowfullscreen></iframe>
 					<p>
-						A small labyrinth game implemented using lua to handle all logic. There is a mode for playing the game and a mode for building new levels, which are saved and updated in real time, making it possible to switch back to the play mode and play the new level any time.
-
+						A small labyrinth game implemented using lua to handle all logic. There are two modes: playing the game and building new levels. 
+						The levels are saved and updated in real time, making it possible to switch back to the play mode and play the new level any time.
 						<br /><br />
 						<a target="_blank" href="https://github.com/HerrAndersson/LuaProject">Luabyrint on Github</a>
 					</p>
@@ -118,7 +150,7 @@
 					<h2>Other<br /></h2>
 					<img class="centered_object" width="800" height="456" src="images/slide/physics.png" />
 					<p>
-						A physics simulation of projectiles being affected by air resistance. Implemented in C++ and Direct3D 11, as part of the course "Applied Real-time Physics".
+						A physics simulation of projectiles being affected by air resistance. Implemented in C++ and Direct3D 11 as part of the course "Applied Real-time Physics".
 
 						<br /><br />
 						<a target="_blank" href="https://github.com/HerrAndersson/projectilephysics">Projectile simulation on Github</a>
