@@ -46,7 +46,7 @@
 				<li><img width="900" height="506" src="images/slide/seam.png" alt="Seam Carving to resize the image" /></li>
 				<li><img width="900" height="506" src="images/slide/spaceshooter.png" alt="Space shooter: Fly a spaceship and shoot other spaceships in space" /></li>
 				<li><img width="900" height="506" src="images/slide/vilecorp2.png" alt="VileCorp: Strategy game. Prevent the thieves from stealing valuables" /></li>
-				<li><img width="900" height="506" src="images/slide/nibbles.png" alt="Nibbles game implamented 100% in assembly language" /></li>
+				<li><img width="900" height="506" src="images/slide/nibbles.png" alt="Nibbles (snake) implemented in assembly language" /></li>
 				<li><img width="900" height="506" src="images/slide/luabyrint.png" alt="Luabyrint: labyrinth game in Lua" /></li>
 				<li><img width="900" height="506" src="images/slide/nightlight2.png" alt="nightlight: Puzzle game. Escape from the secret lab" /></li>
 			</ul>
@@ -64,7 +64,7 @@
 					<h2>Level of Detail</h2>
 					<iframe class="centered_object" width="720" height="405" src="https://www.youtube.com/embed/zbhcDDIAnI8" frameborder="0" allowfullscreen></iframe>
 					<p>
-						My bachelor's thesis was about the differences between techniques used to switch between LoD's. 
+						My bachelor's thesis is about the differences between techniques used to switch between LoD's. 
 						The main focus was to examine how silhouette based Phong Tessellation compared to Curved PN Triangles, Static LoD, and Unpopping LoD.
 					</p>
 					<p>
@@ -82,15 +82,15 @@
 
 					<iframe class="centered_object" width="720" height="405" src="https://www.youtube.com/embed/jOgy49PNFBk" frameborder="0" allowfullscreen></iframe>
 					<p>
-						This game was created as the final project of the program at BTH, in a group of 14 members (5 Technical Artists and 9 Game programmers). 
+						This game was created as the final project of the program at BTH, in a group of fourteen members (five Technical Artists and nine Game programmers). 
 						It is a strategy game where you play as a security company with the objective to prevent thieves from stealing valuable objects from your clients. 
-						You have several traps at your disposal, and you can use two types of guards which can be given commands. 
+						You have several traps at your disposal, and you can use two types of guards which you can give commands to. 
 						There is also a level editor where you can build you own maps and design missions.
 					</p>
 					<p>
-						My part of this project was to implement the graphics "engine" (Direct3D 11), where I have implemented everything except for the antialiasing and animation shaders. 
-						Part of the project was to have the game run on an Intel NUC with an i5 processor and Intel Integrated 6000 graphics, using at most 256MB RAM in at least 30 fps. 
-						To meet these requirements, I also did a lot of optimization, such as developing an algorithm which scans the map and combines tiles of the same type to save draw calls.
+						My part of this project was to implement the graphics "engine" (Direct3D 11), where I have implemented everything except the antialiasing and animation shaders. 
+						The technical requirements for the project was to have the game run on an Intel NUC with a dual-core i5 processor and Intel Integrated 6000 graphics, using at most 256MB RAM in at least 30 fps. 
+						To meet these requirements I had to do a lot of optimizations. For example, I developed an algorithm which scans the map and combines tiles of the same type to save draw calls.
 					</p>
 					<p>
 						Included in the project was also to work with Scrum, with sprints each week, morning meetings, sprint evaluation etc.
@@ -104,14 +104,14 @@
 					<h2>nightlight</h2>
 					<iframe class="centered_object" width="720" height="405" src="https://www.youtube.com/embed/hSGGY9XV3Hk" frameborder="0" allowfullscreen></iframe>
 					<p>
-						This game was created in a group of 6 members (4 Technical Artists and 2 Game programmers). 
-						It is a puzzle game where you play as a little boy who is trapped in his grandfathers secret lab after an experiment went wrong. 
+						This game was created in a group of six members (four Technical Artists and two Game programmers). 
+						It is a puzzle game where you play as a little boy who got trapped in his grandfathers secret lab when an experiment went wrong. 
 						Shadow creatures escaped and will try to kill you, but you can use your flashlight to push them away. 
-						Using switches, boxes and the creatures themselves you must try to find your grandfather and escape the lab.
+						Using switches, boxes, and the creatures themselves you must try to find your grandfather and escape the lab.
 					</p>
 					<p>
 						Since we were only two programmers, both of us worked on most parts together, but the graphics "engine" (Direct3D 11) and the AI was done by me alone. 
-						The AI is a simple 3-state statemachine, which is using my implementation of A* for pathfinding.
+						The AI is a simple 3-state state-machine, which is using my implementation of A* for pathfinding.
 						<br /><br />
 						<a target="_blank" href="https://github.com/HerrAndersson/nightlight">nightlight on Github</a>
 					</p>
@@ -132,7 +132,7 @@
 					<h2>Space Shooter</h2>
 					<iframe class="centered_object" width="580" height="435" src="https://www.youtube.com/embed/kzqMsWUarBs" frameborder="0" allowfullscreen></iframe>
 					<p>
-						A Space shooter where you play as a ship. The objective is to stay alive as long as possible while waves of enemy ships attack you. It was implemented in C# using XNA.
+						A Space shooter where you play as a spaceship. The objective is to stay alive as long as possible while waves of enemy ships attack you. It was implemented in C# using XNA.
 					</p>
 				</div>
 
@@ -140,8 +140,8 @@
 					<h2>Luabyrint</h2>
 					<iframe class="centered_object" width="580" height="435" src="https://www.youtube.com/embed/RZIrMocRPxc" frameborder="0" allowfullscreen></iframe>
 					<p>
-						A small labyrinth game implemented using lua to handle all logic. There are two modes: playing the game and building new levels. 
-						The levels are saved and updated in real time, making it possible to switch back to the play mode and play the new level any time.
+						A small labyrinth game implemented using lua to handle the logic. There are two modes: playing the game or building new levels. 
+						The levels are saved and updated in real time, making it possible to switch back to the play-mode and play the new level any time.
 						<br /><br />
 						<a target="_blank" href="https://github.com/HerrAndersson/LuaProject">Luabyrint on Github</a>
 					</p>
